@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+.landingpage {
+    width: 100%;
+    height: 99%;
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 6rem;
+    background-color: black;
+    margin: 0;
+}
+
+.navigations {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+li:hover {
+    color: gainsboro;
+    transition: all 1.1s;
+}
+
+.create-account {
+    width: 8rem;
+    height: 1.8rem;
+    margin-top: 1.8rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-account:hover {
+    background-color: rgb(25, 25, 201);
+    transition: all 1.1s;
+}
+
+.websiteLogo {
+    font-size: 2rem;
+    margin-top: 1.4rem;
+    width: 40rem;
+}
+
+.mainbar {
+    display: flex;
+}
+
+.artist {
+    flex: 1.9;
+    height: 40.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 91, 91);
+}
+
+.about-artist {
+    flex: 1.1;
+    height: 40.6rem;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artist-img {
+    width: 50rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.9);
+}
+
+img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+}
+
+.art-img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.back-btn,
+.forward-btn {
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 50%;
+    background-color: transparent;
+    position: relative;
+}
+
+.back-btn:hover,
+.forward-btn:hover {
+    background-color: rgb(221, 217, 217);
+    transition: all .4s;
+}
+
+.forward-btn {
+    transform: rotate(180deg);
+}
+
+.main-frame {
+    width: 15rem;
+    height: 15rem;
+    margin: -2rem;
+    transition: all .5s;
+}
+
+.about {
+    width: 30rem;
+    height: 40rem;
+    font-size: 2rem;
+}
+
+.about h2 {
+    margin: 2rem 0;
+}
