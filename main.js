@@ -29,10 +29,8 @@ let artistName = {
 let AboutArtist = function(id) {
     console.log(id);
     const html = `
-        <div class="about">
             <h2>${artistName[id]}</h2>
             <p>${artistData[id]}</p>
-        </div> 
     `;
     about.insertAdjacentHTML("afterbegin", html);
 

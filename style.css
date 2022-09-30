@@ -15,12 +15,16 @@ html {
     background-color: aliceblue;
     padding: 0;
     margin: 0;
+    background-image: url('img/background.svg');
+    background-repeat: no-repeat;
+    /* background-size: 50rem 40.6rem; */
 }
 
 .navbar {
     width: 100%;
     height: 6rem;
-    background-color: black;
+    /* background-color: black; */
+    background-color: transparent;
     margin: 0;
 }
 
@@ -32,7 +36,7 @@ html {
 li {
     list-style: none;
     margin-top: 2rem;
-    color: white;
+    color: black;
     font-size: 1.2rem;
     cursor: pointer;
 }
@@ -73,13 +77,15 @@ li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(22, 91, 91);
+    /* background-color: rgb(22, 91, 91); */
+    background-color: transparent;
 }
 
 .about-artist {
     flex: 1.1;
     height: 40.6rem;
-    background-color: gray;
+    /* background-color: gray; */
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
