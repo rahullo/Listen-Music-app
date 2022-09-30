@@ -25,10 +25,12 @@ let artistName = {
     5: 'Selena Marie Gomez'
 }
 
+let html = ` `;
 
 let AboutArtist = function(id) {
+    about.insertAdjacentHTML("afterbegin", html);
     console.log(id);
-    const html = `
+    html = `
             <h2>${artistName[id]}</h2>
             <p>${artistData[id]}</p>
     `;

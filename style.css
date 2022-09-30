@@ -42,8 +42,8 @@ li {
 }
 
 li:hover {
-    color: gainsboro;
-    transition: all 1.1s;
+    color: rgb(180, 148, 148);
+    transition: all .5s;
 }
 
 .create-account {
@@ -57,7 +57,9 @@ li:hover {
 }
 
 .create-account:hover {
-    background-color: rgb(25, 25, 201);
+    background-color: rgb(161, 157, 157);
+    color: rgb(232, 82, 82);
+    font-weight: 500;
     transition: all 1.1s;
 }
 
