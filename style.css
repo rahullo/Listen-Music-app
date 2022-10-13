@@ -88,9 +88,7 @@ li:hover {
     transition: all .3s;
 }
 
-
-/* .start-listen {
-    border: black 2px;
-    transform: scale(1.1);
+.start-listen:not( :hover) {
+    transform: scale(1);
     transition: all .3s;
-} */
+}
