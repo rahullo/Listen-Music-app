@@ -12,12 +12,12 @@ html {
 .landingpage {
     width: 100%;
     height: 99%;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     padding: 0;
     margin: 0;
-    background-image: url('img/background.svg');
+    background-image: url('img/Listen.svg');
     background-repeat: no-repeat;
-    /* background-size: 50rem 40.6rem; */
+    background-size: 100% 100%;
 }
 
 .navbar {
