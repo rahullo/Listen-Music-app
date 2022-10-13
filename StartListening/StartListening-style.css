@@ -1,12 +1,14 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 html {
     padding: 0;
     margin: 0;
     background-color: aqua;
+    font-family: "Roboto", sans-serif;
 }
 
 .mainPage {
@@ -29,8 +31,7 @@ html {
 
 .navs {
     width: 100%;
-    height: 100%;
-    background-color: aquamarine;
+    height: 91.5%;
     padding-top: 4rem;
 }
 

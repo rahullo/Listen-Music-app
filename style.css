@@ -1,12 +1,14 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Roboto";
 }
 
 html {
     padding: 0;
     margin: 0;
     background-color: aqua;
+    font-family: "Roboto";
 }
 
 .landingpage {
@@ -91,4 +93,9 @@ li:hover {
 .start-listen:not( :hover) {
     transform: scale(1);
     transition: all .3s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
