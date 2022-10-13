@@ -24,11 +24,6 @@ html {
     background-color: antiquewhite;
 }
 
-.mainbar {
-    flex: 3;
-    background-color: rgb(159, 107, 39);
-}
-
 .navs {
     width: 100%;
     height: 91.5%;
@@ -52,4 +47,51 @@ html {
 .active {
     border-radius: 1.2rem;
     background-color: rgb(0, 0, 0, .2);
+}
+
+.mainbar {
+    flex: 3;
+    background-color: azure;
+}
+
+.mainbar-backgroung-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/arijit.jpg');
+    background-repeat: no-repeat;
+    box-shadow: inset 0rem -30rem 10rem #1f1e1e;
+}
+
+.song-cards {
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    background-color: aliceblue;
+    border-radius: 2.5rem;
+    top: 40%;
+    left: 8%;
+}
+
+.three-dot {
+    position: relative;
+    width: 2.4rem;
+    height: 2rem;
+    font-size: 2.5rem;
+    left: 75%;
+    top: 5%;
+    border-radius: 1rem;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.play {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    /* background-color: black; */
+    top: 50%;
+    left: 10%;
+    background-image: url('../img/play.svg');
 }
