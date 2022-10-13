@@ -71,6 +71,7 @@ html {
     border-radius: 2.5rem;
     top: 40%;
     left: 8%;
+    background-image: url('../img/card-pic1.svg');
 }
 
 .three-dot {
@@ -83,6 +84,7 @@ html {
     border-radius: 1rem;
     cursor: pointer;
     /* display: none; */
+    cursor: pointer;
 }
 
 .play {
@@ -90,8 +92,47 @@ html {
     width: 3rem;
     height: 3rem;
     border-radius: 1.5rem;
-    /* background-color: black; */
+    background-color: rgb(0, 0, 0, .7);
     top: 50%;
     left: 10%;
     background-image: url('../img/play.svg');
+    /* display: none; */
+    cursor: pointer;
+}
+
+.song-cards-2 {
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    background-color: aliceblue;
+    border-radius: 2.5rem;
+    top: 73%;
+    left: 8%;
+    background-image: url('../img/card-pic1.svg');
+}
+
+.three-dot {
+    position: relative;
+    width: 2.4rem;
+    height: 2rem;
+    font-size: 2.5rem;
+    left: 75%;
+    top: 5%;
+    border-radius: 1rem;
+    cursor: pointer;
+    /* display: none; */
+    cursor: pointer;
+}
+
+.play {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    background-color: rgb(0, 0, 0, .7);
+    top: 50%;
+    left: 10%;
+    background-image: url('../img/play.svg');
+    /* display: none; */
+    cursor: pointer;
 }
