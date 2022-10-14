@@ -54,7 +54,8 @@ html {
     background-color: azure;
 }
 
-.mainbar-backgroung-img {
+.mainbar-backgroung-page1-img {
+    display: none;
     position: relative;
     width: 100%;
     height: 100%;
@@ -135,4 +136,37 @@ html {
     background-image: url('../img/play.svg');
     /* display: none; */
     cursor: pointer;
+}
+
+.mainbar-backgroung-page2-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/mainbar-background-page2.svg');
+    background-repeat: no-repeat;
+    box-shadow: inset 0rem -30rem 10rem #1f1e1e;
+}
+
+#navbar {
+    background-color: #333;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
 }
