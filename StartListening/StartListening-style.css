@@ -55,7 +55,7 @@ html {
 }
 
 .mainbar-backgroung-page1-img {
-    display: none;
+    display: 1;
     position: relative;
     width: 100%;
     height: 100%;
@@ -139,6 +139,7 @@ html {
 }
 
 .mainbar-backgroung-page2-img {
+    display: none;
     position: relative;
     width: 100%;
     height: 100%;
@@ -184,5 +185,4 @@ html {
 audio {
     width: 80%;
     margin: 1rem 10%;
-    color: red;
 }

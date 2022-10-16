@@ -4,7 +4,7 @@ let active = document.querySelector('.active')
 const navsBtn = document.querySelector('.navs')
 const cards = document.querySelector('.song-cards')
 const threeDot = document.querySelector('.three-dot')
-const playBtn = document.getElementsByClassName('.play')
+const playBtn = document.querySelector('.play')
 const homeBtn = document.querySelector('.homebtn')
 const playListBtn = document.querySelector('.playListbtn')
 const favBtn = document.querySelector('.favbtn')
@@ -25,6 +25,8 @@ homeBtn.addEventListener('click', (event) => {
         active.classList.remove('active')
         event.target.classList.add('active')
     }
+    document.querySelector('.mainbar-backgroung-page2-img').style.display = 'none'
+    document.querySelector('.mainbar-backgroung-page1-img').style.display = '1'
 
 })
 
@@ -57,3 +59,45 @@ function scrollFunction() {
         document.getElementById("navbar").style.top = "-50px";
     }
 }
+
+// playBtn.addEventListener('click', (event) => {
+//     event.preventDefault()
+//     document.querySelector('.mainbar-backgroung-page2-img').style.display = '1'
+//     document.querySelector('.mainbar-backgroung-page1-img').style.display = 'none'
+
+// })
+
+
+// Changing background Picture
+
+let artistList = ['arijit', 'badshah', 'shreya']
+
+let i = 0
+
+let counter = () => {
+    let len = artistList.length
+    while (i < len) {
+        if (i = len - 1) {
+            i = 0
+        } else {
+            i += 1
+            return i
+        }
+    }
+}
+
+const changingBackground = (index) => {
+    document.querySelector('.mainbar-backgroung-page1-img').style.backgroundImage = `url('../img/${artistList[index]}.jpg')`
+}
+
+
+const loop = () => {
+    setTimeout(function() {
+        let count = counter()
+        console.log(i, count, artistList[count]);
+        changingBackground(count)
+        loop()
+    }, 4000); //9000 = 9000ms = 9s
+};
+
+loop()
