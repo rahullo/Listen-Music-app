@@ -1,0 +1,19 @@
+{
+    "name": "listen",
+    "version": "1.0.0",
+    "description": "Music listening website",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rahullo/Listen-Music-app.git"
+    },
+    "author": "rahuulo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rahullo/Listen-Music-app/issues"
+    },
+    "homepage": "https://github.com/rahullo/Listen-Music-app#readme"
+}
